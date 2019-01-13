@@ -1,0 +1,29 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width:  100%;
+}
+#lol{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size:5em;
+    max-width: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+button{
+    text-align:center;
+    margin-left: 50%;
+    margin-right: 50%;
+    display:  block;
+
+}
